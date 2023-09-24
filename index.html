@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Expenses chart component</title>
+  <style>
+    .attribution { font-size: 11px; text-align: center; position: absolute; bottom: 0; left: 50%; transform:  translateX(-50%);}
+    .attribution a { color: black; text-decoration: none; }
+  </style>
+  <script src="index.js" defer></script>
+</head>
+<body>
+  <div class="expense-card">
+    <div class="balance-header">
+      <span>
+        <p>My balance</p>
+        <p>$921.48</p>
+      </span>
+      <img src="./images/logo.svg" alt="">
+    </div>
+    <div class="spending-graph">
+      <p>Spending - Last 7 days</p>
+      <div class="bars-container">
+        <div class="progress-bg">
+          <span class="price"></span>
+          <div class="progress-bar bar-0"></div>
+          <p>mon</p>
+        </div>
+
+        <div class="progress-bg">
+          <span class="price"></span>
+          <div class="progress-bar bar-1"></div>
+          <p>tue</p>
+        </div>
+
+        <div class="progress-bg">
+          <span class="price"></span>
+          <div class="progress-bar bar-2"></div>
+          <p>wed</p>
+        </div>
+
+        <div class="progress-bg">
+          <span class="price"></span>
+          <div class="progress-bar bar-3"></div>
+          <p>thu</p>
+        </div>
+
+        <div class="progress-bg">
+          <span class="price"></span>
+          <div class="progress-bar bar-4"></div>
+          <p>fri</p>
+        </div>
+
+        <div class="progress-bg">
+          <span class="price"></span>
+          <div class="progress-bar bar-5"></div>
+          <p>sat</p>
+        </div>
+
+        <div class="progress-bg">
+          <span class="price">44</span>
+          <div class="progress-bar bar-6"></div>
+          <p>sun</p>
+        </div>
+
+      </div>
+      <div class="summary-footer">
+        <div class="this-month">
+          <p>Total this month</p>
+          <p>$478.33</p>
+        </div>
+        <div class="last-month">
+          <p>+2.4%</p>
+          <p>from last month</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="attribution">
+    Coded by <a href="#">Johnny</a>.
+  </div>
+</body>
+</html>
